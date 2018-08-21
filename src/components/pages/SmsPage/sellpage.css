@@ -1,0 +1,71 @@
+.videos {
+  top: 220px;
+}
+
+.amount-withdraw {
+    flex: 1;
+    margin-right: 35px;
+    height: 282px;
+    overflow: hidden;
+    font-weight: 200;
+    text-align: left;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.button-group {
+    flex: 1;
+    display: flex;
+    margin-left: 35px;
+    height: 282px;
+    font-weight: 200;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    padding-top: 35px;
+}
+
+.show-currency {
+    height: 73px;
+    width: 383px;
+    background-image: url("../../img/currency-field.png");
+    background-size: 383px 103px;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 30px;
+    color: #39424e;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#second {
+    padding-top: 0;
+}
+
+.title-text {
+    padding-left: 10px;
+}
+
+.left-group, .right-group {
+    width: 122px;
+    flex: 1
+}
+
+.left-group {
+    text-align: right;
+    padding-right: 15px;
+}
+
+.right-group {
+    text-align: left;
+    padding-left: 15px;
+}
+
+.show-max {
+    color: #39424e;
+    font-weight: 500;
+    font-size: 11px;
+    position: relative;
+    top: -29px;
+    left: 20px;
+}
